@@ -1,0 +1,32 @@
+Nilay Bhatia 
+24070123063 
+Entc A3
+
+#include <iostream>
+ using namespace std;
+int main() {
+
+    int number;
+    cout << "Enter the number: " << endl;
+    cin >> number;
+    if (number % 2 == 0) {
+        cout << "The number is even." << endl;
+    } else {
+        cout << "The number is odd." << endl;
+    }
+}
+
+
+Expected Output :- 
+
+Input:
+Enter the number:
+10
+Output:
+The number is even.
+
+Input:
+Enter the number:
+7
+Output:
+The number is odd.
