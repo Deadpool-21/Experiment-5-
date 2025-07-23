@@ -1,0 +1,60 @@
+ Nilay Bhatia 
+ 24070123063 
+ Entc A3 
+
+
+#include <iostream>
+ using namespace std ;
+ 
+ int main (){
+     int choice;
+     cout<<"Welcom to Nilay's Gym Mart" << '\n';
+     cout<< "We provide the following items" << '\n';
+     cout<<"1.Biscuits"<<endl<<"2.Rice"<<endl<<"3.Redbull"<<endl<<"4.Monster"<<endl<<"5.Whey Isolate Protein"<<endl<<"6.Creatine"<<endl<<"7.Tren"<<"\n";
+     cout<<"What would you like to buy ";
+     cin>>choice;
+     switch(choice){
+         case 1:
+         cout << "Biscuits ";
+         break;
+         case 2:
+         cout<< "Rice";
+         break;
+         case 3:
+         cout<<"Redbull";
+         break;
+         case 4:
+         cout<<"Monster";
+         break;
+         case 5 :
+         cout<<"Whey Isolate Protein";
+         break;
+         case 6:
+         cout << "Creatine";
+         break;
+         case 7 : 
+         cout<< "Tren";
+         break;
+         default :
+         cout<<"Bad choice , Please retry ";
+        
+         
+     }return 0;
+     
+ }
+
+
+Expected Output :- 
+
+Welcom to Nilay's Gym Mart
+We provide the following items
+1.Biscuits
+2.Rice
+3.Redbull
+4.Monster
+5.Whey Isolate Protein
+6.Creatine
+7.Tren
+What would you like to buy
+3
+Redbull
