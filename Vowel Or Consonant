@@ -1,0 +1,31 @@
+ Nilay Bhatia 
+ 24070123063 
+ Entc A3 
+
+#include <iostream>
+ using namespace std ; 
+ int main () {
+     char ch;
+ cout << "Enter a charachter  " ;
+ cin >> ch;
+ if (ch=='A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' || ch == 'a' || ch == 'e' 
+ || ch == 'i' || ch =='o' || ch == 'u' 
+ ){
+     cout<<ch<<" is a vowel" ;
+ }
+ else { cout <<ch<< " is a consonant";
+ }
+ return 0; 
+ }
+
+Expected Output :- 
+
+Enter a charachter
+a
+
+a is a vowel 
+
+Enter a charachter
+R
+
+R is a consoant 
